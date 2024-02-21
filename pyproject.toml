@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vimwiki-converter"
+version = "0.1.0"
+description = ""
+authors = ["Vipul Sharma <vipul.sharma20@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+docopt = "^0.6.2"
+pyyaml = "^6.0.1"
+
+[tool.poetry.scripts]
+vimwiki-converter = "vimwiki_converter.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

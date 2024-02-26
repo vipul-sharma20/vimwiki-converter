@@ -17,7 +17,7 @@ to solve that.
 ### Installation
 
 ```
-pip install https://github.com/vipul-sharma20/vimwiki-converter/releases/download/v0.1.0/vimwiki_converter-0.1.0-py3-none-any.whl
+pip install https://github.com/vipul-sharma20/vimwiki-converter/releases/download/v0.2.0/vimwiki_converter-0.2.0-py3-none-any.whl
 ```
 
 ### Usage
@@ -36,6 +36,7 @@ target_directory: /path/to/target/directory/
 functions:
   - convert_headers
   - convert_code_blocks
+  - convert_bullet_points
 ```
 
 Here, these functions are the functions defined in python files in
